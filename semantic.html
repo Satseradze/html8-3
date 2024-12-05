@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="luka satseradze">
+    <link rel="icon" href="image/icon.svg">
+    <title>სემანტიკური და არასემანტიკური</title>
+</head>
+<body>
+    <header>
+        <h1>სემანტიკური HTML-ის სწავლა</h1>
+    </header>
+    <main>
+        <div>
+            <h2>არასემანტიკური Div ელემენტი</h2>
+            <p>&lt;div&gt; ელემენტი გამოიყენება ბლოკური შინაარსის ჯგუფისთვის, თუმცა მას საკუთარი მნიშვნელობა არ გააჩნია.</p>
+        </div>
+        <div>
+            <h2>ცხრილებისა და ფორმების გამოყენება</h2>
+            <h3>მომხმარებელთა ინფორმაციის ცხრილი</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>სახელი</th>
+                        <th>ელ.ფოსტა</th>
+                        <th>ასაკი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>გიორგი ბერიძე</td>
+                        <td>giorgi@example.com</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>ლიკა დევდარიანი</td>
+                        <td>lika@example.com</td>
+                        <td>32</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>კონტაქტის ფორმა</h2>
+            <form>
+                <label for="name">სახელი:</label>
+                <br />
+                <input type="text" id="name" required>
+                <br />
+                <br />
+                <label for="email">ელ.ფოსტა:</label>
+                <br />
+                <input type="email" id="email" required>
+                <br />
+                <br />
+                <label for="age">ასაკი:</label>
+                <br />
+                <input type="number" id="age" required>
+                <br />
+                <br />
+                <input type="submit" value="გაგზავნა">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 სემანტიკური და არასემანტიკური HTML-ის მაგალითი</p>
+    </footer>
+</body>
+</html>
